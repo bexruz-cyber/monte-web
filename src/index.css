@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font_700;
+  src: url(../src/fonts/Neue\ Montreal\ Bold\ 700.otf);
+}
+
+@font-face {
+  font-family: font_500;
+  src: url(../src/fonts/Neue\ Montreal\ Medium\ 500.otf);
+}
+
+@font-face {
+  font-family: font_400;
+  src: url(../src/fonts/Neue\ Montreal\ Regular\ 400.otf);
+}
+
+.font_700{
+  font-family: font_700, sans-serif;
+}
+
+.font_500{
+  font-family: font_500, sans-serif;
+}
+.font_400{
+  font-family: font_400, sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
